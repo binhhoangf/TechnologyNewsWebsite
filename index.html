@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>TechTalk</title>
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href=".\css\style.css">
+	<!-- css library bootstrap -->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<!-- cdn library font-awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- css library Swiper -->
+	<link rel="stylesheet" type="text/css" href="swiper/dist/css/swiper.css">
+
+</head>
+<body>
+<!-- ------------------------------------- HEADER ---------------------------------------- --->
+<header>
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<a href="index.html"><img id="logo" width="100%" src="images/techtalk1.jpg" alt=""></a>
+		</div>
+	</div>		
+</header>
+	
+<!-- ------------------------------------- END HEADER ------------------------------------- -->
+
+<!-- ------------------------------------- NAVIGATION ------------------------------------- -->
+	<div class="container-fluid w-100 sticky-top">
+		<nav class="navbar navbar-expand-lg navbar-dark" style="background: #2d3246;">
+			<div class="container-fluid">
+				<!-- Nút Home -->
+				<div class="navbar-home">
+					<div class="dropdown">
+						<button class="dropbtn"><a href="index.html"></a><i class="fa fa-home"></i></button>
+						<div class="dropdown-content">
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="taikhoan.html"><i class="fa fa-user-circle-o"> </i>&ensp;Tài khoản </a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item " href="dulieu.html"><i class="fa fa-database"></i>&ensp;Dữ liệu </a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="404.html"><i class="fa fa-line-chart"></i>&ensp;Thống kê</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="404.html"><i class="fa fa-sitemap"></i>&ensp;Site Map</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="404.html"><i class="fa fa-file-code-o"></i>&ensp;Back End</a>
+							<div class="dropdown-divider"></div>
+						</div>
+					</div>
+				</div>
+				<!-- End Nút Home -->
+
+				<!--  ------------------------- Menu ---------------------------- -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+			</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto w-100 justify-content-md-around">
+
+						<!-- ------------------ Search ------------------------- -->
+						<div class="nav-item">
+							<div class="d-flex justify-content-center h-100">
+								<div class="searchbar">
+									<input class="search_input" type="text" name="" placeholder="Tìm kiếm">
+									<a href="_blank" class="search_icon"><i class="fa fa-search"></i></a>
+								</div>
+							</div>
+						</div>
+						<!-- ------------------ End search -------------------- -->
+
+						<li class="nav-item">
+							<a class="nav-link" href="CongNghe.html">CÔNG NGHỆ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="Video.html" >VIDEO</a>
+						</li>
+						<li class="dropdown">
+							<a class="nav-link dropdown-toggle" href="Chude.html"  >
+								CHỦ ĐỀ
+							</a>
+							<div class="dropdown-content">
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="Chude.html"><i class="fa fa-windows"></i>&ensp;Window</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="Chude.html"><i class="fa fa-apple"></i>&ensp;Mac OS</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="Chude.html"><i class="fa fa-linux"></i>&ensp;Linux Ubuntu</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="Chude.html"><i class="fa fa-android"></i>&ensp;Android</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="Chude.html"><i class="fa fa-newspaper-o"></i>&ensp;Sự kiện công nghệ</a>
+							<div class="dropdown-divider"></div>
+						</div>
+						</li>				
+						<li class="nav-item">
+							<a class="nav-link" href="Tool.html" >TOOLS & TIPS</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="LapTrinh.html">LẬP TRÌNH</a>
+							<div class="dropdown-content">
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="LapTrinh.html"><i class="fa fa-html5"></i>&ensp;Html4/Html5</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="LapTrinh.html"><i class="fa fa-css3"></i>&ensp;Css3</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="LapTrinh.html"><i class="fa fa-file-code-o"></i>&ensp;C/C++/C#</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="LapTrinh.html"><i class="fa fa-codepen"></i>&ensp;Codepen</a>
+							<div class="dropdown-divider"></div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="tscode.html">TÂM SỰ CODER</a>
+						</li>
+					</ul>
+				</div>
+				<!--------------------------- End Menu ------------------------ --> 
+			</div>
+		</nav>
+	</div>
+	
+<!-- ------------------------------------- END NAVIGATION -------------------------------------- -->
+
+<!-- -------------------------------------  CONTENS -------------------------------------------- -->
+
+	<!------------------------------------- Tin nổi bật ---------------------------------- -->
+	<div class="container">
+		<!-- ------------------ -->
+		<div class="row">
+			<div class="col-md-8">
+				<div class=" container-img ">
+					<div class="box">
+						<div class="imgBox">
+							<img src="images/h3.jpg">
+						</div>
+						<div class="content">
+							<h2><a href="new1.html" class="text-success">iOS 13 chính thức: Dark Mode, mở app nhanh gấp đôi, bàn phím Swipe giống Android, hỗ trợ AirPods và HomePod tốt hơn</a></h2>
+							<p><span><i class="fa fa-clock-o"></i>&#160;Cập nhật <a href="">3</a> phút trước.
+							</span></p>
+							<a class="btn btn-outline-info" href="new1.html">Xem Thêm</a>
+						</div>
+					</div>
+				</div>		
+			</div>	
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-12 ">
+						<div class=" container-img ">
+							<div class="box">
+								<div class="imgBox">
+									<img src="images/h1.jpg">
+								</div>
+								<div class="content ">
+									<h4><a href="#"class="text-success">Facebook bị kết tội “vô lý”, “độc tài” khi khoá hàng loạt fanpage.</a></h4>
+									<p><span><i class="fa fa-clock-o"></i>&#160;Last updated <a href="">6</a> mins ago.
+									</span></p>
+									<a class="btn btn-outline-info" href="#">Xem Thêm</a>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 ">
+						<div class=" container-img ">
+							<div class="box">
+								<div class="imgBox">
+									<img src="images/h6.jpg">
+								</div>
+								<div class="content">
+									<h4><a href="#" class="text-info">Viettel lập Tổng công ty Công nghiệp Công nghệ cao</a></h4>
+									<p><span><i class="fa fa-clock-o"></i>&#160;Cập nhật<a href="">13</a> phút trước.
+									</span></p>
+									<a class="btn btn-outline-info" href="#">Xem Thêm</a>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- ------------------- -->
+		<!-- ------------------- -->
+		<div class="row">
+			<div class="col-md-4">
+				<div class="container-img ">
+					<div class="box">
+						<div class="imgBox">
+							<img src="images/h1.jpg">
+						</div>
+						<div class="content">
+							<h4><a href="#"class="text-info">Làm chủ công nghệ là điều nhất thiết.</a></h4>
+							<p><span><i class="fa fa-clock-o"></i>&#160;Cập nhật <a href="">19</a> phút trước.
+							</span></p>
+							<a class="btn btn-outline-info" href="#">Xem Thêm</a>
+						</div>
+					</div>
+				</div>		
+			</div>
+			<div class="col-md-4">
+				<div class="container-img ">
+					<div class="box">
+						<div class="imgBox">
+							<img src="images/h4.jpg">
+						</div>
+						<div class="content">
+							<h4><a href="#" class="text-info">Robot đang dần thay thế con người.</a></h4>
+							<p><span><i class="fa fa-clock-o"></i>&#160;Cập nhật <a href="">37</a> phút trước.
+							</span></p>
+							<a class="btn btn-outline-info" href="#">Xem Thêm</a>
+						</div>
+					</div>
+				</div>		
+			</div>
+			<div class="col-md-4">
+				<div class="container-img ">
+					<div class="box">
+						<div class="imgBox">
+							<img src="images/h5.jpg">
+						</div>
+						<div class="content">
+							<h5><a href="#" class="text-info">10 phát minh khoa học, công nghệ hay nhất năm 2018.</a></h5>
+							<p><span><i class="fa fa-clock-o"></i>&#160;Cạp nhật <a href="">43</a> phút trước.
+							</span></p>
+							<a class="btn btn-outline-info" href="#">Xem Thêm</a>
+						</div>
+					</div>
+				</div>		
+			</div>
+			
+		</div>
+	</div>
+	
+	<!-- ----------------------------------- End Tin nổi bật -------------------------------------- -->
+		
+	<!-- ----------------------------------- Công nghệ -------------------------------------------- -->
+	<div class="container pt-1" id="CongNghe">
+		<div class="row">
+			<div class="style-nd col-md-12 ">
+				<h2>&ensp;<span class="badge btn-outline-danger">Công nghệ&#160;<i class="fa fa-newspaper-o"></i></span>
+				</h2>
+			</div>		
+		</div>
+		<div class="row">			
+			<div class="container">
+				<!-- sliderSwiper -->	
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"> 
+							<div class="imgBx">
+								<img src="images/h3.jpg" alt="">
+							</div>
+							<div class="details">
+								<h2><a href="new2.html"><i class="fa fa-chevron-right"></i>&#160;Vietnam Mobile Day lần thứ 9 – Kỳ lân công nghệ sẽ xuất hiện tại Việt Nam trong một năm nữa.</a> &ensp;
+									<a class="btn btn-outline-info" href="#"><i class="fa fa-link"></i> &#160;Liên kết</a>
+									<br> 
+									<span>
+										<marquee onmouseover=" this.stop()" onmouseout=" this.start()">
+											<p>
+												Sáng nay, ngày 6/6 tại TP.HCM, đã có hơn 5000 khán giả tham dự sự kiện Vietnam Mobile Day 2019, chương trình do TopDev tổ chức có sự góp mặt với nhiều chuyên gia hàng đầu trong lĩnh vực công nghệ và digital marketing đã chia sẻ và cập nhật những số liệu mới nhất trên thị trường. Ba từ khóa được đề cập đến nhiều nhất chính là: Digital Transformation (chuyển đổi số), AI (trí thông minh nhân tạo, ứng dụng trong tài chính, bán lẻ, xử lý hành vi tiêu dùng), Mobile và Data Driven (tối ưu hóa và tận dụng những lợi thế từ mobile). Các báo cáo và số liệu chỉ ra nhiều xu hướng và cơ hội cho các doanh nghiệp tại thị trường Việt Nam nói riêng và Đông Nam Á nói chung.
+											</p>
+										</marquee>
+									</span>	
+								</h2>
+							</div>
+						</div>
+						<div class="swiper-slide"> 
+							<div class="imgBx">
+								<img src="images/h4.jpg" alt="">
+							</div>
+							<div class="details">
+								<h2><a href=""><i class="fa fa-chevron-right"></i>&#160;Làm chủ công nghệ là điều nhất thiết</a> &ensp;
+									<a class="btn btn-outline-info" href="#"><i class="fa fa-link"></i> &#160;Liên kết</a><br> 
+									<span>
+										<marquee onmouseover=" this.stop()" onmouseout=" this.start()">
+											<p>Ngày nay công nghệ thông tin và tự động hóa chiếm lĩnh hầu hết trong mọi lĩnh vực của cuộc sống. Một ngày, con người ta trải qua gần như trọn vẹn 24 tiếng bên các thiết bị tự động: Sáng ngủ dậy ta có máy đánh răng, máy cạo râu, ăn sáng từ máy làm thức ăn, uống cà phê từ máy pha cà phê, đi làm trên xe gắn máy, cả ngày cắm cúi bên máy tính, các thiết bị di động; chiều về nấu ăn bằng nồi cơm điện, bếp từ, đun nước bằng bình thủy điện, tối ngủ trong phòng gắn máy điều hòa; đi vệ sinh bằng bồn cầu có chức năng chùi rửa tự động, tối ngủ cùng gối massage hay búp bê người máy….
+											</p>
+										</marquee>
+									</span>	
+								</h2>
+							</div>
+						</div>
+						<div class="swiper-slide"> 
+							<div class="imgBx">
+								<img src="images/h1.jpg" alt="">
+							</div>
+							<div class="details">
+								<h2><a href=""><i class="fa fa-chevron-right"></i>&#160;Những thiết bị âm thanh hứa hẹn trong tương lai.</a> &ensp;
+									<a class="btn btn-outline-info" href="#"><i class="fa fa-link"></i> &#160;Liên kết</a><br> 
+									<span>
+										<marquee onmouseover=" this.stop()" onmouseout=" this.start()">
+											<p>1. Loa JBL Link Bar
+												JBL Link Bar “biến” tivi thành thiết bị thông minh nhờ tích hợp Android TV, Chromecast và trợ lý ảo Google Assistant. Với quyền truy cập ngay vào Android TV và hỗ trợ Chromecast, bạn có thể phát các chương trình yêu thích mà không phải nhấc ngón tay, chỉ cần ra lệnh cho Google Assistant.
+											</p>
+										</marquee>
+									</span>	
+								</h2>
+							</div>
+						</div>
+						<div class="swiper-slide"> 
+							<div class="imgBx">
+								<img src="images/h2.jpg" alt="">
+							</div>
+							<div class="details">
+								<h2><a href=""><i class="fa fa-chevron-right"></i>&#160;AI khôi phục hình ảnh của những ngôi sao điện ảnh Hồng Kông thập niên 90.</a> &ensp;
+									<a class="btn btn-outline-info" href="#"><i class="fa fa-link"></i> &#160;Liên kết</a><br> 
+									<span>
+										<marquee onmouseover=" this.stop()" onmouseout=" this.start()">
+											<p>Các trang mạng xã hội Trung Quốc mấy ngày vừa qua đang truyền cho nhau những hình ảnh đã được khôi phục của các ngôi sao điện ảnh Hồng Kông, được cho là biểu tượng của thập niên 90 như Bridget Lin và Joey Wong…
+											Nhờ sự hỗ trợ của AI, các đường nét và nét đặc trưng trên khuôn mặt trong các bức ảnh cũ mờ hoặc có độ phân giải thấp đã được tái hiện lại, khi xem lại các cảnh quay hài hước cũng có thể khiến công chúng phải lòng những ngôi sao thập niên 90 này. Các bức ảnh này nhận về hơn 40.000 chủ đề thảo luận và 190 triệu lượt xem.
+											</p>
+										</marquee>
+									</span>	
+								</h2>
+							</div>
+						</div>
+						<div class="swiper-slide"> 
+							<div class="imgBx">
+								<img src="images/h5.jpg" alt="">
+							</div>
+							<div class="details">
+								<h2><a href=""><i class="fa fa-chevron-right"></i>&#160;10 Bước đột phá trong công nghệ năm 2018.</a> &ensp;
+									<a class="btn btn-outline-info" href="#"><i class="fa fa-link"></i> &#160;Liên kết</a><br> 
+									<span>
+										<marquee onmouseover=" this.stop()" onmouseout=" this.start()">
+											<p>Sản xuất các bộ phận thay thế ở ô tô bằng cách in 3D hàng loạt, trí thông minh nhân tạo có khả năng tưởng tượng, tai nghe thần kỳ giúp con người hiểu được mọi ngôn ngữ, v.v.. - những công nghệ tưởng như chỉ xuất hiện trong các bộ phim khoa học viễn tưởng, nay hoàn toàn có khả năng trở thành hiện thực trong tương lai gần.
+											</p>
+										</marquee>
+									</span>	
+								</h2>
+							</div>
+						</div>
+						<div class="swiper-slide"> 
+							<div class="imgBx">
+								<img src="images/h6.jpg" alt="">
+							</div>
+							<div class="details">
+								<h2><a href=""><i class="fa fa-chevron-right"></i>&#160;Apple không thua thiệt trong vấn đề AI.</a> &ensp;
+									<a class="btn btn-outline-info" href="#"><i class="fa fa-link"></i> &#160;Liên kết</a><br> 
+									<span>
+										<marquee onmouseover=" this.stop()" onmouseout=" this.start()">
+											<p>Sự kiện Google I/O năm nay tập trung toàn bộ vào AI và khả năng điện toán (computing) của AI. Google đã trình bày quá trình 17 năm tập trung vào tổ chức sắp xếp lại thông tin thế giới thông qua Google Assistant trong các sản phẩm như Google Home và Allo. Các phiên bản demo machine-learning của Google rất ấn tượng và con chip tùy chỉnh của Apple tập trung vào machine learning trong AI servers có khả năng không đem lại yếu tố bất ngờ như mong đợi.
+											</p>
+										</marquee>
+									</span>	
+								</h2>
+							</div>
+						</div>
+						<div class="swiper-slide"> 
+							<div class="imgBx">
+								<img src="images/h1.jpg" alt="">
+							</div>
+							<div class="details">
+								<h2><a href=""><i class="fa fa-chevron-right"></i>&#160;Lorem ipsum dolor sit amet.</a> &ensp;
+									<a class="btn btn-outline-info" href="#"><i class="fa fa-link"></i> &#160;Liên kết</a><br> 
+									<span>
+										<marquee onmouseover=" this.stop()" onmouseout=" this.start()">
+											<p>
+												1.	The 13th Int'l Conference on Research, Innovation and Vision for the Future. 2. The 23rd Pacific-Asia Conference on Knowledge Discovery and Data Mining.3. Int’l Conference "New Communications in the Digital Transformation Age".4. The second International Conference on Multimedia Analysis and Pattern Recognition.5. Sắp xếp mạng lưới giáo dục đào tạo trong bối cảnh Tự chủ giáo dục và Hội nhập quốc tế, đáp ứng nhu cầu nhân lực cho sự nghiệp công nghiệp hóa, hiện đại hóa đất nước trong các thập niên đầu của thế kỷ 21.
+											</p>
+										</marquee>
+									</span>	
+								</h2>
+							</div>
+						</div>
+						<div class="swiper-slide"> 
+							<div class="imgBx">
+								<img src="images/h2.jpg" alt="">
+							</div>
+							<div class="details">
+								<h2><a href=""><i class="fa fa-chevron-right"></i>&#160;Lorem ipsum dolor sit amet.</a> &ensp;
+									<a class="btn btn-outline-info" href="#"><i class="fa fa-link"></i> &#160;Liên kết</a><br> 
+									<span>
+										<marquee onmouseover=" this.stop()" onmouseout=" this.start()">
+											<p>Main content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur incidunt iusto quaerat accusantium omnis suscipit? Magni voluptatibus, rem aut quod cum ipsa culpa id corporis libero, nulla ullam deserunt maiores!
+											</p>
+										</marquee>
+									</span>	
+								</h2>
+							</div>
+						</div>
+						<div class="swiper-slide"> 
+							<div class="imgBx">
+								<img src="images/h4.jpg" alt="">
+							</div>
+							<div class="details">
+								<h2><a href=""><i class="fa fa-chevron-right"></i>&#160;Lorem ipsum dolor sit amet.</a> &ensp;
+									<a class="btn btn-outline-info" href="#"><i class="fa fa-link"></i> &#160;Liên kết</a><br> 
+									<span>
+										<marquee onmouseover=" this.stop()" onmouseout=" this.start()">
+											<p>Main content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur incidunt iusto quaerat accusantium omnis suscipit? Magni voluptatibus, rem aut quod cum ipsa culpa id corporis libero, nulla ullam deserunt maiores!
+											</p>
+										</marquee>
+									</span>	
+								</h2>
+							</div>
+						</div>
+						<div class="swiper-slide"> 
+							<div class="imgBx">
+								<img src="images/h5.jpg" alt="">
+							</div>
+							<div class="details">
+								<h2><a href=""><i class="fa fa-chevron-right"></i>&#160;Lorem ipsum dolor sit amet.</a> &ensp;
+									<a class="btn btn-outline-info" href="#"><i class="fa fa-link"></i> &#160;Liên kết</a><br> 
+									<span>
+										<marquee onmouseover=" this.stop()" onmouseout=" this.start()">
+											<p>Main content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur incidunt iusto quaerat accusantium omnis suscipit? Magni voluptatibus, rem aut quod cum ipsa culpa id corporis libero, nulla ullam deserunt maiores!
+											</p>
+										</marquee>
+									</span>	
+								</h2>
+							</div>
+						</div>							
+					</div>
+					<!-- Add Pagination -->
+					<div class="swiper-pagination"></div>
+				</div>
+				<!-- End sliderSwiper -->
+			</div>
+		</div>
+	</div>
+	<!-- ------------------------------------------ End content Công nghệ------------------------ -->
+
+	<!-- ------------------------------------------ Video----------------------------------------- -->
+	<div class="container" id="Video">
+		<div class="row">
+			<div class="style-nd col-md-12 ">
+				<h2>&ensp;<span class="badge btn-outline-warning">Video&#160;<i class="fa fa-youtube"></i>&#160;<i class="fa fa-file-video-o"></i></span></h2>
+			</div>
+		</div>
+		<div class="row p-md-2">
+			<div class="col-sm-4 center">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/pxDgD5JWdqg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="col-sm-4 center">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/k32voqQhODc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="col-sm-4 center">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/7kVeCqQCxlk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>		
+		</div>
+		<div class="row p-md-5">
+			<div class="col-sm-4 center">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/HgwCeNVPlo0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="col-sm-4 center">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe width="897" height="506" src="https://www.youtube.com/embed/IFai8qTKvEM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="col-sm-4 center">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/zGiirUiWslI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>		
+		</div>
+	</div>
+	<!-- --------------------------------------- End Video -------------------------------------- -->
+
+	<!-- --------------------------------------- Tag -------------------------------------------- -->
+	<div class="style-nd container pt-1" onclick="tag()">
+		<div class="row">
+			<div class="col-md-2">
+				<h3>&ensp;<span class="btn btn-outline-danger"><i class="fa fa-tags"></i>&#160;Tags:</span></h3>
+			</div>
+			<div id="adv" class="col-md-10">
+				<div class="row container m-md-0 p-md-0 ">
+					<!-- fonts google -->
+					<h4><span class="badge badge-warning"><i class="fa fa-tags"></i>&#160;<a href="https://fonts.google.com">fonts google</a></span></h4>&#160;
+					<!-- bootstrap4 -->
+					<h4><span class="badge badge-success"><i class="fa fa-tags"></i>&#160;<a href="https://getbootstrap.com/css">bootstrap4</a></span></h4>&#160;
+					<!-- Online Tutorials -->
+					<h4><span class="badge badge-info"><i class="fa fa-tags"></i>&#160;<a href="https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog">effect</a></span></h4>&#160;
+					<!-- https://sea.mashable.com/ -->
+					<h4><span class="badge badge-danger"><i class="fa fa-tags"></i>&#160;<a href="https://sea.mashable.com">mashable</a></span></h4>&#160;
+					<!-- https://techcrunch.com/ -->
+					<h4><span class="badge badge-dark"><i class="fa fa-tags"></i>&#160;<a href="https://techcrunch.com">techcrunch</a></span></h4>&#160;
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- -------------------------------------- End Tag ------------------------------------------ -->
+
+	<!-- -------------------------------------- Chủ đề ------------------------------------------- -->
+	
+	<div class="container">
+		<div class="row">
+			<div class="style-nd col-md-12 ">
+				<h2>&ensp;<span class="badge btn-outline-info">Chủ đề&#160;<i class="fa fa-th"></i></span></h2>
+			</div>
+			<!--Start code-->
+			<div class="row">
+				<div class="col-12 pb-1">
+					<!--SECTION START-->
+					<section class="row">
+						<!--Start slider news-->
+						<div class="col-12 col-md-6 pb-0 pb-md-3 pt-2 pr-md-1">
+							<div id="featured" class="carousel slide carousel" data-ride="carousel">
+								<!--dots navigate-->
+								<ol class="carousel-indicators top-indicator">
+									<li data-target="#featured" data-slide-to="0" class="active"></li>
+									<li data-target="#featured" data-slide-to="1"></li>
+									<li data-target="#featured" data-slide-to="2"></li>
+									<li data-target="#featured" data-slide-to="3"></li>
+								</ol>
+
+								<!--carousel inner-->
+								<div class="carousel-inner">
+									<!--Item slider-->
+									<div class="carousel-item active">
+										<div class="card border-0 rounded-0 text-light overflow zoom">
+											<div class="position-relative">
+												<!--thumbnail img-->
+												<div class="ratio_left-cover-1 image-wrapper">
+													<a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+														<img class="img-fluid w-100"
+														src="hinhanh\chude\chude1.png"
+														alt="Image description">
+													</a>
+												</div>
+												<div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+													<!--title-->
+													<a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+														<h2 class="h3 post-title text-white my-1">TalentHub Jobfair – Kết nối cơ hội làm việc tại Nhật</h2>
+													</a>
+													<!-- meta title -->
+													<div class="news-meta">
+														<span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Jennifer</a></span>
+														<span class="news-date">Oct 22, 2019</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<!--Item slider-->
+									<div class="carousel-item">
+										<div class="card border-0 rounded-0 text-light overflow zoom">
+											<div class="position-relative">
+												<!--thumbnail img-->
+												<div class="ratio_left-cover-1 image-wrapper">
+													<a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+														<img class="img-fluid w-100"
+														src="hinhanh\chude\chude2.jpg"
+														alt="Image description">
+													</a>
+												</div>
+												<div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+													<!--title-->
+													<a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+														<h2 class="h3 post-title text-white my-1">Google quyết tâm bảo vệ người dùng khỏi quảng cáo phiền toái</h2>
+													</a>
+													<!-- meta title -->
+													<div class="news-meta">
+														<span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Jennifer</a></span>
+														<span class="news-date">Oct 22, 2019</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<!--Item slider-->
+									<div class="carousel-item">
+										<div class="card border-0 rounded-0 text-light overflow zoom">
+											<div class="position-relative">
+												<!--thumbnail img-->
+												<div class="ratio_left-cover-1 image-wrapper">
+													<a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+														<img class="img-fluid w-100"
+														src="hinhanh\chude\chude3.jpg"
+														alt="Image description">
+													</a>
+												</div>
+												<div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+													<!--title-->
+													<a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+														<h2 class="h3 post-title text-white my-1">Huawei nói tung ra hệ điều hành riêng vào tháng 9, 10 tới</h2>
+													</a>
+													<!-- meta title -->
+													<div class="news-meta">
+														<span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Jennifer</a></span>
+														<span class="news-date">Oct 22, 2019</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<!--Item slider-->
+									<div class="carousel-item">
+										<div class="card border-0 rounded-0 text-light overflow zoom">
+											<div class="position-relative">
+												<!--thumbnail img-->
+												<div class="ratio_left-cover-1 image-wrapper">
+													<a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+														<img class="img-fluid w-100"
+														src="hinhanh\chude\chude4.jpg"
+														alt="Image description">
+													</a>
+												</div>
+												<div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+													<!--title-->
+													<a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+														<h2 class="h3 post-title text-white my-1">Uber lỗ ròng 1 tỉ USD trong quý đầu 2019</h2>
+													</a>
+													<!-- meta title -->
+													<div class="news-meta">
+														<span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Jennifer</a></span>
+														<span class="news-date">Oct 22, 2019</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!--end item slider-->
+								</div>
+								<!--end carousel inner-->
+							</div>
+							<!--navigation-->
+							<a class="carousel-control-prev" href="#featured" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#featured" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+						<!--End slider news-->
+
+						<!--Start box news-->
+						<div class="col-12 col-md-6 pt-2 pl-md-1 mb-3 mb-lg-4">
+							<div class="row">
+								<!--news box-->
+								<div class="col-6 pb-1 pt-0 pr-1">
+									<div class="card border-0 rounded-0 text-white overflow zoom">
+										<div class="position-relative">
+											<!--thumbnail img-->
+											<div class="ratio_right-cover-2 image-wrapper">
+												<a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+													<img class="img-fluid"
+													src="hinhanh\chude/chude5.jpg"
+													alt="Image description">
+												</a>
+											</div>
+											<div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+												<!-- category -->
+												<a class="p-1 badge badge-primary rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Window</a>
+
+												<!--title-->
+												<a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+													<h2 class="h5 text-white my-1">Microsoft Office 2019 chỉ hoạt động trên Windows 10</h2>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!--news box-->
+								<div class="col-6 pb-1 pl-1 pt-0">
+									<div class="card border-0 rounded-0 text-white overflow zoom">
+										<div class="position-relative">
+											<!--thumbnail img-->
+											<div class="ratio_right-cover-2 image-wrapper">
+												<a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+													<img class="img-fluid"
+													src="hinhanh\chude/chude6.jpg"
+													alt="Image description">
+												</a>
+											</div>
+											<div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+												<!-- category -->
+												<a class="p-1 badge badge-primary rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Mac OS</a>
+												<!--title-->
+												<a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+													<h2 class="h5 text-white my-1">Phát hiện mã độc mới chuyên tấn công người dùng Mac</h2>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!--news box-->
+								<div class="col-6 pb-1 pr-1 pt-1">
+									<div class="card border-0 rounded-0 text-white overflow zoom">
+										<div class="position-relative">
+											<!--thumbnail img-->
+											<div class="ratio_right-cover-2 image-wrapper">
+												<a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+													<img class="img-fluid"
+													src="hinhanh\chude/chude7.jpg"
+													alt="Image description">
+												</a>
+											</div>
+											<div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+												<!-- category -->
+												<a class="p-1 badge badge-primary rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Linux Ubuntu</a>
+												<!--title-->
+												<a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+													<h2 class="h5 text-white my-1">Windows 10 và Linux Ubuntu: khi hai ta về một nh​à</h2>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!--news box-->
+								<div class="col-6 pb-1 pl-1 pt-1">
+									<div class="card border-0 rounded-0 text-white overflow zoom">
+										<div class="position-relative">
+											<!--thumbnail img-->
+											<div class="ratio_right-cover-2 image-wrapper">
+												<a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+													<img class="img-fluid"
+													src="hinhanh/chude/chude8.jpg"
+													alt="Image description">
+												</a>
+											</div>
+											<div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+												<!-- category -->
+												<a class="p-1 badge badge-primary rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Adroid</a>
+												<!--title-->
+												<a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+													<h2 class="h5 text-white my-1">Hệ điều hành của Huawei vẫn chưa thật sẵn sàng để thay Android?</h2>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!--end news box-->
+							</div>
+						</div>
+						<!--End box news-->
+					</section>
+					<!--END SECTION-->
+				</div>
+			</div>
+			<!--end code-->
+		</div>
+	</div>
+
+	<!-- ------------------------------------- End Chủ đề ------------------------------------------------ -->
+
+	<!-- ------------------------------------- Tool & Tips ----------------------------------------------- -->
+	<div class="container">
+		<div class="row">
+			<div class="style-nd col-md-12">
+				<h2>&ensp;<span class="badge btn-outline-success">Tool & Tips&#160;<i class="fa fa-wrench"></i></span></h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card text-white bg-success flex-md-row mb-4 shadow-sm h-md-250">
+					<div class="card-body d-flex flex-column align-items-start">
+						<strong class="d-inline-block mb-2 text-white"></strong>
+						<h6 class="mb-0">
+							<a class="text-white" href="#">10 Tip giúp laptop của bạn chơi game mượt hơn bao giờ hết</a>
+						</h6>
+						<div class="mb-1 text-white-50 small">Nov 12</div>
+						<p class="card-text mb-auto">Bạn vẫn còn dùng laptop để “chiến” game? Đây là 10 gợi ý tối ưu...</p>
+						<a class="btn btn-outline-light btn-sm" role="button" href="#">Xem thêm</a>
+					</div>
+					<img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="hinhanh/tool/tool0.png"width: 200px; height: 250px;">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="card text-white bg-success flex-md-row mb-4 shadow-sm h-md-250">
+					<div class="card-body d-flex flex-column align-items-start">
+						<strong class="d-inline-block mb-2 text-white"></strong>
+						<h6 class="mb-0">
+							<a class="text-white" href="#">Một số mẹo giúp việc debugging với console dễ dàng hơn</a>
+						</h6>
+						<div class="mb-1 text-white-50 small">Nov 12</div>
+						<p class="card-text mb-auto">Trong quá trình coding ắt hẳn chúng ta không ít lần cần đến sự hỗ trợ...</p>
+						<a class="btn btn-outline-light btn-sm" role="button" href="#">Xem thêm</a>
+					</div>
+					<img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="hinhanh/tool/tool01.png"width: 200px; height: 250px;">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card-group">
+					<div class="card">
+						<img class="card-img-top" src="hinhanh/tool/tool1.png" alt="img">
+						<div class="card-body">
+							<h5 class="card-title"><a href="">7 điều cần biết để tận dụng tối đa Laravel Model</a>
+							</h5>
+							<span><i class="fa fa-clock-o"></i>&#160;Cập nhật <a href="">3</a> phút trước.
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="card-group">
+					<div class="card">
+						<img class="card-img-top" src="hinhanh/tool/tool2.png" alt="img">
+						<div class="card-body">
+							<h5 class="card-title"><a href="">Làm thế nào để đổi màu được file svg ?</a>
+							</h5>
+							<span><i class="fa fa-clock-o"></i>&#160;Last updated <a href="">3</a> mins ago
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="card-group">
+					<div class="card">
+						<img class="card-img-top" src="hinhanh/tool/tool3.png" alt="img">
+						<div class="card-body">
+							<h5 class="card-title"><a href="">Một số design pattern các lập trình viên nên biết</a>
+							</h5>
+							<span><i class="fa fa-clock-o"></i>&#160;Last updated <a href="">3</a> mins ago
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="card-group">
+					<div class="card">
+						<img class="card-img-top" src="hinhanh/tool/tool2.png" alt="img">
+						<div class="card-body">
+							<h5 class="card-title"><a href="">Cách mà python implement switch case</a>
+							</h5>
+							<span><i class="fa fa-clock-o"></i>&#160;Last updated <a href="">3</a> mins ago
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- ------------------------------ End Tool & Tips ---------------------------------- -->
+
+	<!-- ------------------------------ Lập trình ---------------------------------------- -->
+
+	<div class="container">
+		<div class="row">
+			<div class="style-nd col-md-12">
+				<h2>&ensp;<span class="badge btn-outline-dark">Lập trình&#160;<i class="fa fa-code"></i></span></h2>
+			</div>	
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card flex-md-row mb-4 shadow-sm h-md-250">
+					<div class="card-body d-flex flex-column align-items-start">
+						<strong class="d-inline-block mb-2 text-primary"></strong>
+						<h6 class="mb-0">
+							<a class="text-dark" href="#">Cài chứng chỉ SSL miễn phí từ Let's Encrypt</a>
+						</h6>
+						<div class="mb-1 text-muted small">Nov 12</div>
+						<p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+						<a class="btn btn-outline-primary btn-sm" role="button" href="#">Xem thêm</a>
+					</div>
+					<img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="hinhanh/laptrinh/laptrinh1.png" style="width: 200px; height: 250px;">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="card flex-md-row mb-4 shadow-sm h-md-250">
+					<div class="card-body d-flex flex-column align-items-start">
+						<strong class="d-inline-block mb-2 text-primary"></strong>
+						<h6 class="mb-0">
+							<a class="text-dark" href="#">Hướng dẫn cài lại Wordpress khi bị dính mã độc</a>
+						</h6>
+						<div class="mb-1 text-muted small">Nov 12</div>
+						<p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+						<a class="btn btn-outline-primary btn-sm" role="button" href="#">Xem thêm</a>
+					</div>
+					<img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="hinhanh/laptrinh/laptrinh2.jpg" style="width: 200px; height: 250px;">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card text-white bg-success flex-md-row mb-4 shadow-sm h-md-250">
+					<div class="card-body d-flex flex-column align-items-start">
+						<strong class="d-inline-block mb-2 text-white"></strong>
+						<h6 class="mb-0">
+							<a class="text-white" href="#">6 bước tự học ngôn ngữ lập trình C</a>
+						</h6>
+						<div class="mb-1 text-white-50 small">Nov 12</div>
+						<p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+						<a class="btn btn-outline-light btn-sm" role="button" href="#">Xem thêm</a>
+					</div>
+					<img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="hinhanh/laptrinh/lapptrinh3.jpg" style="width: 200px; height: 250px;">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="card text-white bg-success flex-md-row mb-4 shadow-sm h-md-250">
+					<div class="card-body d-flex flex-column align-items-start">
+						<strong class="d-inline-block mb-2 text-white"></strong>
+						<h6 class="mb-0">
+							<a class="text-white" href="#">Ngôn ngữ lập trình C là gì? – Tại sao sử dụng C?</a>
+						</h6>
+						<div class="mb-1 text-white-50 small">Nov 12</div>
+						<p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+						<a class="btn btn-outline-light btn-sm" role="button" href="#">Xem thêm</a>
+					</div>
+					<img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="hinhanh/laptrinh/laptrinh4.jpg" style="width: 200px; height: 250px;">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="card mb-4 text-white border-success">
+					<img class="card-img-top" src="images/img1.jpg" alt="Card image cap">
+					<div class="card-body">
+						<p class="card-text">Internet Vạn Vật, hay cụ thể hơn là Mạng lưới vạn vật kết nối Internet hoặc là Mạng lưới thiết bị kết nối Internet (tiếng Anh: Internet of Things, viết tắt IoT) là một liên mạng, trong đó các thiết bị, phương tiện vận tải (được gọi là "thiết bị kết nối" và "thiết bị thông minh"),</p>
+						<a href="#" class="btn btn-outline-success btn-sm">Xem thêm</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4 text-white border-success">
+					<img class="card-img-top" src="images/img1.jpg" alt="Card image cap">
+					<div class="card-body">
+					<p class="card-text">Internet Vạn Vật, hay cụ thể hơn là Mạng lưới vạn vật kết nối Internet hoặc là Mạng lưới thiết bị kết nối Internet (tiếng Anh: Internet of Things, viết tắt IoT) là một liên mạng, trong đó các thiết bị, phương tiện vận tải (được gọi là "thiết bị kết nối" và "thiết bị thông minh"),</p>
+						<a href="#" class="btn btn-outline-success btn-sm">Xem thêm</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4 text-white border-success">
+					<img class="card-img-top" src="images/img1.jpg" alt="Card image cap">
+					<div class="card-body">
+					<p class="card-text">Internet Vạn Vật, hay cụ thể hơn là Mạng lưới vạn vật kết nối Internet hoặc là Mạng lưới thiết bị kết nối Internet (tiếng Anh: Internet of Things, viết tắt IoT) là một liên mạng, trong đó các thiết bị, phương tiện vận tải (được gọi là "thiết bị kết nối" và "thiết bị thông minh"),</p>
+						<a href="#" class="btn btn-outline-success btn-sm">Xem thêm</a>
+					</div>
+				</div>
+			</div>		
+		</div>
+	</div>
+	<!-- ------------------------------- End Lập trình ------------------------ -->
+
+	<!-- ------------------------------- Tâm sự coder -------------------------- -->
+	<div class="container" id="tscode">
+		<div class="row">
+			<div class="style-nd col-md-12 ">
+				<h2>&ensp;<span class="badge btn-outline-secondary">Tâm sự coder&#160;<i class="fa fa-user-secret"></i></span></h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="container">
+             <div class="row">
+                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                    <!-- team-img -->
+                    <div class="team-block">
+                        <div class="team-img">
+                            <img src="https://easetemplate.com/free-website-templates/motion/images/team_member_1.jpg" alt="">
+                            <div class="team-content">
+                                <h4 class="text-white mb0">Eliza Simon</h4>
+                                <p class="team-meta">- Producer</p>
+                            </div>
+                            <div class="overlay">
+                                <div class="text">
+                                    <h4 class="mb0 text-white">Eliza Simon</h4>
+                                    <p class="mb30 team-meta">- Producer</p>
+                                    <p>Mauris tincidunt dolor eget diam dapibus vitae finibusnisl friuisque pretiuam egete euismod justam ac temlibern rutrum nisli in mi rhoncac pharetra odioacin ntesque dictum vel risus quis egeaecenas necese purus quaroin tincidunt neque malesuda vulputate lecton pretiume.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.team-img -->
+                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                    <!-- team-img -->
+                    <div class="team-block">
+                        <div class="team-img">
+                            <img src="https://easetemplate.com/free-website-templates/motion/images/team_member_2.jpg" alt="">
+                            <div class="team-content">
+                                <h4 class="text-white mb0">Gerald Ferguson</h4>
+                                <p class="team-meta">- Creative Director</p>
+                            </div>
+                            <div class="overlay">
+                                <div class="text">
+                                    <h4 class="mb0 text-white">Gerald Ferguson</h4>
+                                    <p class="mb30 team-meta">- Creative Director</p>
+                                    <p>Mauris tincidunt dolor eget diam dapibus vitae finibusnisl friuisque pretiuam egete euismod justam ac temlibern rutrum nisli in mi rhoncac pharetra odioacin ntesque dictum vel risus quis egeaecenas necese purus quaroin tincidunt neque malesuda vulputate lecton pretiume.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.team-img -->
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                    <!-- team-img -->
+                    <div class="team-block">
+                        <div class="team-img">
+                            <img src="https://easetemplate.com/free-website-templates/motion/images/team_member_3.jpg" alt="" class="img-fluid">
+                            <div class="team-content">
+                                <h4 class="text-white mb0">William Murphy</h4>
+                                <p class="team-meta">- Project Manager</p>
+                            </div>
+                            <div class="overlay">
+                                <div class="text">
+                                    <h4 class="mb0 text-white">William Murphy</h4>
+                                    <p class="mb30 team-meta">- Project Manager</p>
+                                    <p>Mauris tincidunt dolor eget diam dapibus vitae finibusnisl friuisque pretiuam egete euismod justam ac temlibern rutrum nisli in mi rhoncac pharetra odioacin ntesque dictum vel risus quis egeaecenas necese purus quaroin tincidunt neque malesuda vulputate lecton pretiume.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.team-img -->
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                    <!-- team-img -->
+                    <div class="team-block">
+                        <div class="team-img">
+                            <img src="https://easetemplate.com/free-website-templates/motion/images/team_member_4.jpg" alt="" class="img-fluid">
+                            <div class="team-content">
+                                <h4 class="text-white mb0">Barbara Cook</h4>
+                                <p class="team-meta">- Producer</p>
+                            </div>
+                            <div class="overlay">
+                                <div class="text">
+                        
+                                    <h4 class="text-white mb0">Barbara Cook</h4>
+                                    <p class="mb30 team-meta">- Producer</p>
+                                    <p>Mauris tincidunt dolor eget diam dapibus vitae finibusnisl friuisque pretiuam egete euismod justam ac temlibern rutrum nisli in mi rhoncac pharetra odioacin ntesque dictum vel risus quis egeaecenas necese purus quaroin tincidunt neque malesuda vulputate lecton pretiume.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.team-img -->
+                   <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                    <!-- team-img -->
+                    <div class="team-block">
+                        <div class="team-img">
+                            <img src="https://easetemplate.com/free-website-templates/motion/images/team_member_5.jpg" alt="" class="img-fluid">
+                            <div class="team-content">
+                                <h4 class="text-white mb0">Derek Bybee</h4>
+                                <p class=" mb30 team-meta">- Creative Director</p>
+                            </div>
+                            <div class="overlay">
+                                <div class="text">
+                                    <h4 class="text-white mb0">Derek Bybee</h4>
+                                    <p class=" mb30 team-meta">- Creative Director</p>
+                                    <p>Mauris tincidunt dolor eget diam dapibus vitae finibusnisl friuisque pretiuam egete euismod justam ac temlibern rutrum nisli in mi rhoncac pharetra odioacin ntesque dictum vel risus quis egeaecenas necese purus quaroin tincidunt neque malesuda vulputate lecton pretiume.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.team-img -->
+                   <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                    <!-- team-img -->
+                    <div class="team-block">
+                        <div class="team-img">
+                            <img src="https://easetemplate.com/free-website-templates/motion/images/team_member_6.jpg" alt="" class="img-fluid">
+                            <div class="team-content">
+                                <h4 class="text-white mb0">Lucille Webster</h4>
+                                <p class=" mb30 team-meta">- Cinematographer + Steadicam Operator</p>
+                            </div>
+                            <div class="overlay">
+                                <div class="text">
+                                    <h4 class="text-white mb0">Lucille Webster</h4>
+                                    <p class="team-meta">- Cinematographer + Steadicam Operator</p>
+                                    <p>Mauris tincidunt dolor eget diam dapibus vitae finibusnisl friuisque pretiuam egete euismod justam ac temlibern rutrum nisli in mi rhoncac pharetra odioacin ntesque dictum vel risus quis egeaecenas necese purus quaroin tincidunt neque malesuda vulputate lecton pretiume.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.team-img -->
+            </div>
+            </div>
+		</div>
+	</div>
+
+
+	<!-- --------------------- End Tâm sự coder ---------------------------->
+	
+	<!-- scroll -->
+		<div class="container-fluid">
+			<div href="javascript:;" class="button_scroll2top" onclick="page_scroll2top()"><i class="fa fa-arrow-circle-up"></i></div>
+		</div>
+	<!-- End scroll -->
+
+<!-- ------------------------------------- END CONTENS ----------------------------------- -->
+
+<!-- ------------------------------------- FOOTER  --------------------------------------- -->
+<footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
+	<div class="row no-gutters social-container">
+		<div class="col">
+			<a class="social-inner" href="index.html" id="v1"><i class="fa fa-home"></i>&ensp;Trang chủ</a>			
+		</div>
+		<div class="col">
+			<a class="social-inner" href="csbm.html" id="v2"><i class="fa fa-info-circle" ></i>&ensp; Giới thiệu về chúng tôi</a>
+		</div>
+		<div class="col">
+			<a class="social-inner" href="csbm.html" id="v3"><i class="fa fa-bullhorn"></i>&ensp;Chính sách bảo mật
+			</a>
+		</div>
+		<div class="col">
+			<div class="container">
+				<div class="text-center center-block">
+					<a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+					<a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+					<a href="https://plus.google.com/"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+					<a href="mailto:techtalk@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+				</div>
+			</div>
+
+		</div>
+		
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-xl-5">
+				<div class="pr-xl-4 text-center">
+					<a class="brand" href="index.html">
+						<img class="img-thumbnail" src="images/techtalk.jpg" alt="" width="35%" ></a>
+						<p>Giấy phép thiết lập Mạng xã hội số 569/GP-BTTTT do Bộ Thông Tin và Truyền Thông cấp.</p>
+						<!-- Rights-->
+						<h5>Technology</h5>
+						<p>Html&#160;<i class="fa fa-html5"></i>&#160;|&#160;Css&#160;<i class="fa fa-css3"></i>&#160;|&#160;bootstrap4&#160;<i class="fa fa-btc">&#160;|&#160;Javascript</i>&#160;<i class="fa fa-codepen"></i>
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<h5>Liên hệ &#160;<i class="fa fa-map-signs"></i></h5>
+					<dl class="contact-list">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122726.26906651213!2d108.19373127159157!3d16.00331405151323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb466fcf06b910a38!2zS2hvYSBDw7RuZyBuZ2jhu4cgdGjDtG5nIHRpbiB2w6AgVHJ1eeG7gW4gdGjDtG5nIC0gxJDhuqFpIGjhu41jIMSQw6AgTuG6tW5n!5e0!3m2!1svi!2s!4v1559630547095!5m2!1svi!2s" width="200" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</dl>
+					<dl class="contact-list">
+						<dt><i class="fa fa-envelope"></i>&#160;<a href="#">techtalk@gmail.com</a></dt>
+						<dt><i class="fa fa-phone-square"></i>&#160;<a href="#">+84 399153180</a></dt>
+					</dl>
+				</div>
+				<div class="col-md-6 col-xl-4">
+					<div class="row">
+						<div class="col-md-6">
+							<h5>Quản lý</h5>
+							<ul class="nav-list">
+								<li><a href="taikhoan.html" id="Person"><i class="fa fa-user-circle-o"></i>&ensp;Tài khoản</a></li>
+								<li><a href="dulieu.html"><i class="fa fa-database"></i>&ensp;Dữ liệu</a></li>
+								<li><a href="#"><i class="fa fa-line-chart"></i>&ensp;Thống kê</a></li>
+								<li><a href="#"><i class="fa fa-sitemap"></i>&ensp;Site Map</a></li>
+								<li><a href="#"><i class="fa fa-file-code-o"></i>&ensp;Back End</a></li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<h5>Chuyên mục</h5>
+							<ul class="nav-list">
+								<li><a href="CongNghe.html"><i class="fa fa-newspaper-o"></i>&ensp;Công nghệ </a></li>
+								<li><a href="Video.html"><i class="fa fa-youtube"></i>&ensp;Video</a></li>
+								<li><a href="Chude.html"><i class="fa fa-th"></i>&ensp;Chủ đề</a></li>
+								<li><a href="Tool.html"><i class="fa fa-wrench"></i>&ensp;Tool & Tips</a></li>
+								<li><a href="LapTrinh.html"><i class="fa fa-code"></i>&ensp;Lập trình</a></li>
+								<li><a href="tscode.html"><i class="fa fa-user-secret"></i>&ensp;Tâm sự coder</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+		<div class="row no-gutters social-container">
+			<div class="col text-center">
+				<div class="spinner-grow text-primary" role="status">
+					<span class="sr-only"></span>
+				</div>
+				<div class="spinner-grow text-secondary" role="status">
+					<span class="sr-only"></span>
+				</div>
+				<div class="spinner-grow text-success" role="status">
+					<span class="sr-only"></span>
+				</div>
+				
+			</div>
+		</div>
+</footer>
+<!-- -------------------------------------------- END FOOTER ----------------------------- -->
+</body>
+
+
+<!-- -------------------------------------------- Javascript ----------------------------- -->
+	<script type="text/javascript" src="javascript/javascript.js"></script>
+	<!--  jquery library bootstrap -->
+	<script type="text/javascript" src="jquery/jquery-3.4.0.min.js"></script>
+	<!--  javascript library bootstrap -->
+	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+	<!--  javascript library swiper -->
+	<script type="text/javascript" src="swiper/dist/js/swiper.js"></script>
+	
+	<!-- js content Công nghệ slider swiper-->
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+			effect: 'coverflow',
+			grabCursor: true,
+			centeredSlides: true,
+			slidesPerView: 'auto',
+			coverflowEffect: {
+				rotate: 60,
+				stretch: 0,
+				depth: 500,
+				modifier: 2,
+				slideShadows : true,
+			},
+			pagination: {
+				el: '.swiper-pagination',
+			},
+		});
+	</script>
+	<!-- End js content Công nghệ slider swiper-->
+
+	<!-- js   Scroll Top-->
+	<script type="text/javascript">
+		$(window).scroll(function(){
+			if($(window).scrollTop() >= 10) {
+				$('.button_scroll2top').show();
+			} else {
+				$('.button_scroll2top').hide();
+			}
+		});
+		function page_scroll2top(){
+			$('html,body').animate({
+				scrollTop: 0
+			}, 1000);
+		}
+	</script>
+	<!-- j  Scroll Top-->
+<!-- -------------------------------------------- Javascript ----------------------------- -->
+</html>

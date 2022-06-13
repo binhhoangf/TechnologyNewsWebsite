@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>404</title>
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href=".\css\style.css">
+	<!-- css library bootstrap -->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<!-- cdn library font-awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- css library Swiper -->
+	<link rel="stylesheet" type="text/css" href="swiper/dist/css/swiper.css">
+	<style type="text/css">
+		h4{
+        color: #253858;
+        margin-bottom: .8rem;
+        position: relative;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.5rem;
+    }
+    p{
+        margin-top: 0;
+        margin-bottom: 1rem;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        color: rgb(113, 120, 126);
+        font-family: 'Lato', sans-serif;
+    }
+    .btn-primary:hover {
+        color: #fff;
+        background-color: #0069d9;
+        border-color: #0062cc;
+    }
+    .btn-primary {
+        color: #fff;
+        background-color: #0069d9;
+        border-color: #0062cc;
+    }
+    .btn-round {
+        border-radius: 30px !important;
+        text-decoration: none;
+    }
+
+    .btn {
+        font-size: 15px;
+        font-weight: 600;
+        padding: 9px 25px;
+        border-width: 2px;
+        box-shadow: 0 3px 8px 0 rgba(41,49,89,.15), inset 0 0 0 1px hsla(0,0%,100%,.1);
+    }
+    .btn {
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        border: 1px solid transparent;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+    .btn:not(:disabled):not(.disabled) {
+        cursor: pointer;
+    }
+    /*[404 error page]
+--------------------------*/
+    .error-content {
+        padding: 0 0 70px;
+    }
+    .error-text{
+        text-align: center;
+    }
+    .error {
+        font-size: 180px;
+        font-weight: 100;
+    }
+    @keyframes bob {
+        0% {
+            top: 0;
+        }
+        50% {
+            top: 0.2em;
+        }
+    }
+    .im-sheep {
+        display: inline-block;
+        position: relative;
+        font-size: 1em;
+        margin-bottom: 70px;
+    }
+    .im-sheep * {
+        transition: transform 0.3s;
+    }
+    .im-sheep .top {
+        position: relative;
+        top: 0;
+        animation: bob 1s infinite;
+    }
+    .im-sheep:hover .head {
+        transform: rotate(0deg);
+    }
+    .im-sheep:hover .head .im-eye {
+        width: 1.25em;
+        height: 1.25em;
+    }
+    .im-sheep:hover .head .im-eye:before {
+        right: 30%;
+    }
+    .im-sheep:hover .top {
+        animation-play-state: paused;
+    }
+    .im-sheep .head {
+        display: inline-block;
+        width: 5em;
+        height: 5em;
+        border-radius: 100%;
+        background: #253858;
+        vertical-align: middle;
+        position: relative;
+        top: 1em;
+        transform: rotate(30deg);
+    }
+    .im-sheep .head:before {
+        content: '';
+        display: inline-block;
+        width: 80%;
+        height: 50%;
+        background: #253858;
+        position: absolute;
+        bottom: 0;
+        right: -10%;
+        border-radius: 50% 40%;
+    }
+    .im-sheep .head:hover .im-ear.one, .im-sheep .head:hover .im-ear.two {
+        transform: rotate(0deg);
+    }
+    .im-sheep .head .im-eye {
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        border-radius: 100%;
+        background: white;
+        position: absolute;
+        overflow: hidden;
+    }
+    .im-sheep .head .im-eye:before {
+        content: '';
+        display: inline-block;
+        background: black;
+        width: 50%;
+        height: 50%;
+        border-radius: 100%;
+        position: absolute;
+        right: 10%;
+        bottom: 10%;
+        transition: all 0.3s;
+    }
+    .im-sheep .head .im-eye.one {
+        right: -2%;
+        top: 1.7em;
+    }
+    .im-sheep .head .im-eye.two {
+        right: 2.5em;
+        top: 1.7em;
+    }
+    .im-sheep .head .im-ear {
+        background: #253858;
+        width: 50%;
+        height: 30%;
+        border-radius: 100%;
+        position: absolute;
+    }
+    .im-sheep .head .im-ear.one {
+        left: -10%;
+        top: 5%;
+        transform: rotate(-30deg);
+    }
+    .im-sheep .head .im-ear.two {
+        top: 2%;
+        right: -5%;
+        transform: rotate(20deg);
+    }
+    .im-sheep .body {
+        display: inline-block;
+        width: 7em;
+        height: 7em;
+        border-radius: 100%;
+        background: #0054D1;
+        position: relative;
+        vertical-align: middle;
+        margin-right: -3em;
+    }
+    .im-sheep .im-legs {
+        display: inline-block;
+        position: absolute;
+        top: 80%;
+        left: 10%;
+        z-index: -1;
+    }
+    .im-sheep .im-legs .im-leg {
+        display: inline-block;
+        background: #141214;
+        width: 0.5em;
+        height: 2.5em;
+        margin: 0.2em;
+    }
+    .im-sheep::before {
+        left: 0;
+        content: '';
+        display: inline-block;
+        position: absolute;
+        top: 112%;
+        width: 100%;
+        height: 18%;
+        border-radius: 100%;
+        background: rgba(0, 0, 0, 0.2);
+    }
+	</style>
+
+</head>
+<body>
+<!-- ------------------------------------- HEADER ---------------------------------------- --->
+<header>
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<a href="index.html"><img id="logo" width="100%" src="images/techtalk1.jpg" alt=""></a>
+		</div>
+	</div>		
+</header>
+	
+<!-- ------------------------------------- END HEADER ------------------------------------- -->
+
+<!-- ------------------------------------- NAVIGATION ------------------------------------- -->
+	<div class="container-fluid w-100 sticky-top">
+		<nav class="navbar navbar-expand-lg navbar-dark" style="background: #2d3246;">
+			<div class="container-fluid">
+				<!-- Nút Home -->
+				<div class="navbar-home">
+					<div class="dropdown">
+						<button class="dropbtn"><a href="index.html"></a><i class="fa fa-home"></i></button>
+						<div class="dropdown-content">
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="taikhoan.html"><i class="fa fa-user-circle-o"> </i>&ensp;Tài khoản </a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item " href="dulieu.html"><i class="fa fa-database"></i>&ensp;Dữ liệu </a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="404.html"><i class="fa fa-line-chart"></i>&ensp;Thống kê</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#"><i class="fa fa-sitemap"></i>&ensp;Site Map</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="backend.html"><i class="fa fa-file-code-o"></i>&ensp;Back End</a>
+							<div class="dropdown-divider"></div>
+						</div>
+					</div>
+				</div>
+				<!-- End Nút Home -->
+
+				<!--  ------------------------- Menu ---------------------------- -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+			</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto w-100 justify-content-md-around">
+
+						<!-- ------------------ Search ------------------------- -->
+						<div class="nav-item">
+							<div class="d-flex justify-content-center h-100">
+								<div class="searchbar">
+									<input class="search_input" type="text" name="" placeholder="Tìm kiếm">
+									<a href="_blank" class="search_icon"><i class="fa fa-search"></i></a>
+								</div>
+							</div>
+						</div>
+						<!-- ------------------ End search -------------------- -->
+
+						<li class="nav-item active">
+							<a class="nav-link" href="CongNghe.html">CÔNG NGHỆ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="Video.html" >VIDEO</a>
+						</li>
+						<li class="dropdown">
+							<a class="nav-link dropdown-toggle" href="Chude.html"  >
+								CHỦ ĐỀ
+							</a>
+							<div class="dropdown-content">
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="Chude.html"><i class="fa fa-windows"></i>&ensp;Window</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="Chude.html"><i class="fa fa-apple"></i>&ensp;Mac OS</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="Chude.html"><i class="fa fa-linux"></i>&ensp;Linux Ubuntu</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="Chude.html"><i class="fa fa-android"></i>&ensp;Android</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="Chude.html"><i class="fa fa-newspaper-o"></i>&ensp;Sự kiện công nghệ</a>
+							<div class="dropdown-divider"></div>
+						</div>
+						</li>				
+						<li class="nav-item">
+							<a class="nav-link" href="Tool.html" >TOOLS & TIPS</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="LapTrinh.html">LẬP TRÌNH</a>
+							<div class="dropdown-content">
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="LapTrinh.html"><i class="fa fa-html5"></i>&ensp;Html4/Html5</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="LapTrinh.html"><i class="fa fa-css3"></i>&ensp;Css3</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="LapTrinh.html"><i class="fa fa-file-code-o"></i>&ensp;C/C++/C#</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="LapTrinh.html"><i class="fa fa-codepen"></i>&ensp;Codepen</a>
+							<div class="dropdown-divider"></div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="tscode.html">TÂM SỰ CODER</a>
+						</li>
+					</ul>
+				</div>
+				<!--------------------------- End Menu ------------------------ --> 
+			</div>
+		</nav>
+	</div>
+	
+<!-- ------------------------------------- END NAVIGATION -------------------------------------- -->
+
+<!-- -------------------------------------  CONTENS -------------------------------------------- -->
+<!-- 404 -->
+<div class="error-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 ">
+                <div class="error-text">
+                    <h1 class="error">404 Error</h1>
+                    <div class="im-sheep">
+                        <div class="top">
+                            <div class="body"></div>
+                            <div class="head">
+                                <div class="im-eye one"></div>
+                                <div class="im-eye two"></div>
+                                <div class="im-ear one"></div>
+                                <div class="im-ear two"></div>
+                            </div>
+                        </div>
+                        <div class="im-legs">
+                            <div class="im-leg"></div>
+                            <div class="im-leg"></div>
+                            <div class="im-leg"></div>
+                            <div class="im-leg"></div>
+                        </div>
+                    </div>
+                    <h4>Oops! This page Could Not Be Found!</h4>
+                    <p>Sorry bit the page you are looking for does not exist, have been removed or name changed.</p>
+                    <a href="index.html" class="btn btn-primary btn-round">Go to homepage</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 404 -->
+	
+	<!-- scroll -->
+		<div class="container-fluid">
+			<div href="javascript:;" class="button_scroll2top" onclick="page_scroll2top()"><i class="fa fa-arrow-circle-up"></i></div>
+		</div>
+	<!-- End scroll -->
+
+<!-- ------------------------------------- END CONTENS ----------------------------------- -->
+
+<!-- ------------------------------------- FOOTER  --------------------------------------- -->
+<footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
+	<div class="row no-gutters social-container">
+		<div class="col">
+			<a class="social-inner" href="index.html" id="v1"><i class="fa fa-home"></i>&ensp;Trang chủ</a>			
+		</div>
+		<div class="col">
+			<a class="social-inner" href="csbm.html" id="v2"><i class="fa fa-info-circle" ></i>&ensp; Giới thiệu về chúng tôi</a>
+		</div>
+		<div class="col">
+			<a class="social-inner" href="csbm.html" id="v3"><i class="fa fa-bullhorn"></i>&ensp;Chính sách bảo mật
+			</a>
+		</div>
+		<div class="col">
+			<div class="container">
+				<div class="text-center center-block">
+					<a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+					<a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+					<a href="https://plus.google.com/"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+					<a href="mailto:techtalk@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+				</div>
+			</div>
+
+		</div>
+		
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-xl-5">
+				<div class="pr-xl-4 text-center">
+					<a class="brand" href="index.html">
+						<img class="img-thumbnail" src="images/techtalk.jpg" alt="" width="35%" ></a>
+						<p>Giấy phép thiết lập Mạng xã hội số 569/GP-BTTTT do Bộ Thông Tin và Truyền Thông cấp.</p>
+						<!-- Rights-->
+						<h5>Technology</h5>
+						<p>Html&#160;<i class="fa fa-html5"></i>&#160;|&#160;Css&#160;<i class="fa fa-css3"></i>&#160;|&#160;bootstrap4&#160;<i class="fa fa-btc">&#160;|&#160;Javascript</i>&#160;<i class="fa fa-codepen"></i>
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<h5>Liên hệ &#160;<i class="fa fa-map-signs"></i></h5>
+					<dl class="contact-list">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122726.26906651213!2d108.19373127159157!3d16.00331405151323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb466fcf06b910a38!2zS2hvYSBDw7RuZyBuZ2jhu4cgdGjDtG5nIHRpbiB2w6AgVHJ1eeG7gW4gdGjDtG5nIC0gxJDhuqFpIGjhu41jIMSQw6AgTuG6tW5n!5e0!3m2!1svi!2s!4v1559630547095!5m2!1svi!2s" width="200" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</dl>
+					<dl class="contact-list">
+						<dt><i class="fa fa-envelope"></i>&#160;<a href="#">techtalk@gmail.com</a></dt>
+						<dt><i class="fa fa-phone-square"></i>&#160;<a href="#">+84 399153180</a></dt>
+					</dl>
+				</div>
+				<div class="col-md-6 col-xl-4">
+					<div class="row">
+						<div class="col-md-6">
+							<h5>Quản lý</h5>
+							<ul class="nav-list">
+								<li><a href="taikhoan.html" id="Person"><i class="fa fa-user-circle-o"></i>&ensp;Tài khoản</a></li>
+								<li><a href="dulieu.html"><i class="fa fa-database"></i>&ensp;Dữ liệu</a></li>
+								<li><a href="#"><i class="fa fa-line-chart"></i>&ensp;Thống kê</a></li>
+								<li><a href="#"><i class="fa fa-sitemap"></i>&ensp;Site Map</a></li>
+								<li><a href="#"><i class="fa fa-file-code-o"></i>&ensp;Back End</a></li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<h5>Chuyên mục</h5>
+							<ul class="nav-list">
+								<li><a href="CongNghe.html"><i class="fa fa-newspaper-o"></i>&ensp;Công nghệ </a></li>
+								<li><a href="Video.html"><i class="fa fa-youtube"></i>&ensp;Video</a></li>
+								<li><a href="Chude.html"><i class="fa fa-th"></i>&ensp;Chủ đề</a></li>
+								<li><a href="Tool.html"><i class="fa fa-wrench"></i>&ensp;Tool & Tips</a></li>
+								<li><a href="LapTrinh.html"><i class="fa fa-code"></i>&ensp;Lập trình</a></li>
+								<li><a href="tscode.html"><i class="fa fa-user-secret"></i>&ensp;Tâm sự coder</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+		<div class="row no-gutters social-container">
+			<div class="col text-center">
+				<div class="spinner-grow text-primary" role="status">
+					<span class="sr-only"></span>
+				</div>
+				<div class="spinner-grow text-secondary" role="status">
+					<span class="sr-only"></span>
+				</div>
+				<div class="spinner-grow text-success" role="status">
+					<span class="sr-only"></span>
+				</div>
+				
+			</div>
+		</div>
+</footer>
+<!-- -------------------------------------------- END FOOTER ----------------------------- -->
+</body>
+
+
+<!-- -------------------------------------------- Javascript ----------------------------- -->
+	<script type="text/javascript" src="javascript/javascript.js"></script>
+	<!--  jquery library bootstrap -->
+	<script type="text/javascript" src="jquery/jquery-3.4.0.min.js"></script>
+	<!--  javascript library bootstrap -->
+	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+	<!--  javascript library swiper -->
+	<script type="text/javascript" src="swiper/dist/js/swiper.js"></script>
+	
+	<!-- js content Công nghệ slider swiper-->
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+			effect: 'coverflow',
+			grabCursor: true,
+			centeredSlides: true,
+			slidesPerView: 'auto',
+			coverflowEffect: {
+				rotate: 60,
+				stretch: 0,
+				depth: 500,
+				modifier: 2,
+				slideShadows : true,
+			},
+			pagination: {
+				el: '.swiper-pagination',
+			},
+		});
+	</script>
+	<!-- End js content Công nghệ slider swiper-->
+
+	<!-- js   Scroll Top-->
+	<script type="text/javascript">
+		$(window).scroll(function(){
+			if($(window).scrollTop() >= 10) {
+				$('.button_scroll2top').show();
+			} else {
+				$('.button_scroll2top').hide();
+			}
+		});
+		function page_scroll2top(){
+			$('html,body').animate({
+				scrollTop: 0
+			}, 1000);
+		}
+	</script>
+	<!-- j  Scroll Top-->
+<!-- -------------------------------------------- Javascript ----------------------------- -->
+</html>

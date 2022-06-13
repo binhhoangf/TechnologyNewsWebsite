@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>New1</title>
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href=".\css\style.css">
+	<!-- css library bootstrap -->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<!-- cdn library font-awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- css library Swiper -->
+	<link rel="stylesheet" type="text/css" href="swiper/dist/css/swiper.css">
+
+</head>
+<body>
+<!-- ------------------------------------- HEADER ---------------------------------------- --->
+<header>
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<a href="index.html"><img id="logo" width="100%" src="images/techtalk1.jpg" alt=""></a>
+		</div>
+	</div>		
+</header>
+	
+<!-- ------------------------------------- END HEADER ------------------------------------- -->
+
+<!-- ------------------------------------- NAVIGATION ------------------------------------- -->
+	<div class="container-fluid w-100 sticky-top">
+		<nav class="navbar navbar-expand-lg navbar-dark" style="background: #2d3246;">
+			<div class="container-fluid">
+				<!-- Nút Home -->
+				<div class="navbar-home">
+					<div class="dropdown">
+						<button class="dropbtn"><a href="index.html"></a><i class="fa fa-home"></i></button>
+						<div class="dropdown-content">
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="taikhoan.html"><i class="fa fa-user-circle-o"> </i>&ensp;Tài khoản </a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item " href="dulieu.html"><i class="fa fa-database"></i>&ensp;Dữ liệu </a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="404.html"><i class="fa fa-line-chart"></i>&ensp;Thống kê</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#"><i class="fa fa-sitemap"></i>&ensp;Site Map</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="backend.html"><i class="fa fa-file-code-o"></i>&ensp;Back End</a>
+							<div class="dropdown-divider"></div>
+						</div>
+					</div>
+				</div>
+				<!-- End Nút Home -->
+
+				<!--  ------------------------- Menu ---------------------------- -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+			</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto w-100 justify-content-md-around">
+
+						<!-- ------------------ Search ------------------------- -->
+						<div class="nav-item">
+							<div class="d-flex justify-content-center h-100">
+								<div class="searchbar">
+									<input class="search_input" type="text" name="" placeholder="Tìm kiếm">
+									<a href="_blank" class="search_icon"><i class="fa fa-search"></i></a>
+								</div>
+							</div>
+						</div>
+						<!-- ------------------ End search -------------------- -->
+
+						<li class="nav-item active">
+							<a class="nav-link" href="CongNghe.html">CÔNG NGHỆ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="Video.html" >VIDEO</a>
+						</li>
+						<li class="dropdown">
+							<a class="nav-link dropdown-toggle" href="Chude.html"  >
+								CHỦ ĐỀ
+							</a>
+							<div class="dropdown-content">
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="Chude.html"><i class="fa fa-windows"></i>&ensp;Window</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="Chude.html"><i class="fa fa-apple"></i>&ensp;Mac OS</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="Chude.html"><i class="fa fa-linux"></i>&ensp;Linux Ubuntu</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="Chude.html"><i class="fa fa-android"></i>&ensp;Android</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="Chude.html"><i class="fa fa-newspaper-o"></i>&ensp;Sự kiện công nghệ</a>
+							<div class="dropdown-divider"></div>
+						</div>
+						</li>				
+						<li class="nav-item">
+							<a class="nav-link" href="Tool.html" >TOOLS & TIPS</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="LapTrinh.html">LẬP TRÌNH</a>
+							<div class="dropdown-content">
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="LapTrinh.html"><i class="fa fa-html5"></i>&ensp;Html4/Html5</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="LapTrinh.html"><i class="fa fa-css3"></i>&ensp;Css3</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="LapTrinh.html"><i class="fa fa-file-code-o"></i>&ensp;C/C++/C#</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="LapTrinh.html"><i class="fa fa-codepen"></i>&ensp;Codepen</a>
+							<div class="dropdown-divider"></div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="tscode.html">TÂM SỰ CODER</a>
+						</li>
+					</ul>
+				</div>
+				<!--------------------------- End Menu ------------------------ --> 
+			</div>
+		</nav>
+	</div>
+	
+<!-- ------------------------------------- END NAVIGATION -------------------------------------- -->
+
+<!-- -------------------------------------  CONTENS -------------------------------------------- -->
+<!-- ------------------------------------ Tin tức ----------------------------------- -->
+	<div>
+		<div class="container mt-1 bg-dark">
+  			<div class="row">
+  				<div class="col-md-2">
+  					<!-- ---- -->
+  					<div class="container sticky-top ">
+ 						<div class="row" id="icon_tin">
+ 							<div class="btn-group-vertical" style="padding: 100px;" role="group" aria-label="Default button group">
+ 								<button type="button" class="btn btn-sm"><a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a></button>
+ 								<button type="button" class="btn btn-sm"><a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a></button>
+ 								<button type="button" class="btn btn-sm"><a href="mailto:techtalk@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a></button>
+ 							</div>
+  						</div>
+  					</div>
+  					
+  				</div>
+
+  				<div class="col-md-10">
+  					<div class="control-box p-2 breadcrumb bg-light">
+  						<strong class="text-success"><h2 style="font-weight: bold;">Tin nổi bật:</h2></strong> 
+  							<h2>&ensp;<span class="badge btn-outline-danger">Công nghệ&#160;<i class="fa fa-newspaper-o"></i></span>
+  							</h2>
+  							<h4><i class="fa fa-arrow-circle-right ml-1 mr-1"></i><a href="">iOS 13 chính thức: Dark Mode, mở app nhanh gấp đôi, bàn phím Swipe giống Android, hỗ trợ AirPods và HomePod tốt hơn</a></h4>
+  						
+  					</div>
+  					<div class="control-box p-3 main-content ">
+  						<h1>iOS 13 chính thức: Dark Mode, mở app nhanh gấp đôi, bàn phím Swipe giống Android, hỗ trợ AirPods và HomePod tốt hơn</h1>
+  						<p>
+  							Với iOS 13 - Apple cuối cùng cũng bắt kịp Android khi có khả năng kết nối với các ổ USB ngoài, giúp người dùng kết nối trực tiếp ổ đĩa flash hoặc SSD với điện thoại và truyền tập tin dễ dàng.
+  						</p>
+  						
+  						<img src="hinhanh/tin/1.jpg" class="img-fluid">
+  						<p>iOS 13 mang đến hàng loạt thay đổi và nâng cấp về giao diện, tính năng và quyền riêng tư cho các thiết bị Apple.</p>
+  						<img src="hinhanh/tin/2.jpg" class="img-fluid">
+  						<h1>Tách iOS dành cho iPad thành một hệ điều hành riêng</h1>
+  						<p>Thay đổi quan trọng đầu tiên là Apple đã tách iOS dành cho iPad thành một hệ điều hành riêng mang tên iPadOS. Mặc dù về bản chất iPadOS vẫn là iOS, tuy nhiên Apple đã có những tinh chỉnh riêng trên iPadOS để nó phù hợp hơn với máy tính bảng và tầm nhìn “iPad có thể thay thế PC” mà Apple đã vạch ra trong suốt nhiều năm qua.
+
+  						iPadOS thừa hưởng tất cả những tính năng mà iOS 13 có dưới đây, ngoài ra nó còn được trang bị một số tính năng độc quyền chỉ có trên iPad mà bạn có thể tham khảo tại bài viết này.</p>
+  						<h1>Tăng cường hiệu năng</h1>
+  						<p>Năm ngoái với iOS 12, Apple từng nhận được nhiều lời khen ngợi vì những nỗ lực cải tiến hiệu năng hệ thống, đặc biệt là trên các thiết bị đời cũ. Năm nay với iOS 13, Apple tiếp tục tăng cường hiệu năng của thiết bị thông qua hàng loạt công nghệ mới.
+
+  						Apple cho biết iOS 13 sẽ cải thiện tốc độ khởi chạy ứng dụng nhanh gấp đôi và kích cỡ của ứng dụng cũng giảm 50%. Đối với những thiết bị hỗ trợ Face ID, tốc độ mở khoá cũng sẽ nhanh hơn 30%.</p>
+  						<img src="hinhanh/tin/3.jpg" class="img-fluid">
+  						<br>
+  						
+  						<img src="hinhanh/tin/4.jpg" class="img-fluid">
+  						<br>
+  						<h1>Chế độ nền tối “Dark Mode”</h1>
+  						<p>
+  						Sau một thời gian dài chờ đợi, Dark Mode cuối cùng đã đến với iOS. Dark Mode sẽ biến toàn bộ giao diện của iOS từ màu trắng thành màu đen, tạo cảm giác thoải mái hơn cho đôi mắt của người dùng khi sử dụng máy vào ban đêm. Ngoài ra với những thiết bị sử dụng màn hình OLED như iPhone X/XS, Dark Mode cũng giúp tiết kiệm pin hơn.</p>
+  						<img src="hinhanh/tin/5.jpg" class="img-fluid">
+  						<br>
+  						<img src="hinhanh/tin/6.jpg" class="img-fluid">
+  						<br>
+  						<img src="hinhanh/tin/7.jpg" class="img-fluid">
+  						<br>
+  						<img src="hinhanh/tin/8.jpg" class="img-fluid">
+  						<br>
+  						<img src="hinhanh/tin/9.jpg" class="img-fluid">
+  						<br>
+  						<img src="hinhanh/tin/10.jpg" class="img-fluid">
+  						<br>
+  						<img src="hinhanh/tin/11.jpg" class="img-fluid">
+  						<br>
+  						
+  						<h1>Bàn phím vuốt (swipe)</h1>
+  						<p>
+  						Với iOS 13, người dùng sẽ có thể nhập liệu bằng cách lướt ngón tay qua các chữ cái trên bàn phím (swipe) mà không cần phải chạm vào từng chữ cái như trước nữa. Đây là tính năng mà Android và nhiều phần mềm bàn phím bên thứ ba đã có từ lâu, và nay thì cuối cùng nó cũng đã được tích hợp sẵn vào bàn phím mặc định của iOS.</p>
+						<img src="hinhanh/tin/12.jpg" class="img-fluid">
+  						<br>
+  						<h1>Bảo vệ thông tin và quyền riêng tư của người dùng</h1>
+  						<p>
+  							Đối với các ứng dụng yêu cầu đăng nhập, iOS 13 nay có thêm tuỳ chọn “Sign-in with Apple” (Đăng nhập bằng Apple). Khi sử dụng dịch vụ sign-in của Apple, người dùng sẽ có thể tuỳ ý lựa chọn những thông tin mà mình sẽ chia sẻ với dịch vụ thứ ba.
+  						Nếu một dịch vụ yêu cầu người dùng cung cấp địa chỉ email, họ còn có tuỳ chọn giấu địa chỉ email thật. Lúc này, Apple sẽ tạo một địa chỉ email giả (ví dụ như fc452bd5ea@privaterelay.appleid.com), và mọi email gửi đến địa chỉ này sẽ được chuyển đến địa chỉ email thật của bạn.</p>
+  						<img src="hinhanh/tin/13.jpg" class="img-fluid">
+  						
+  						<img src="hinhanh/tin/14.jpg" class="img-fluid">
+  						<br>
+  						<img src="hinhanh/tin/15.jpg" class="img-fluid">
+  						<br>
+  						<img src="hinhanh/tin/16.jpg" class="img-fluid">
+  						<p>Ngoài ra, để bảo vệ quyền riêng tư của người dùng, iOS 13 cũng sẽ hạn chế các ứng dụng bên thứ ba sử dụng Wi-Fi và Bluetooth để suy đoán vị trí.</p>
+
+  						<img src="hinhanh/tin/17.jpg" class="img-fluid">
+  						<p>Ứng dụng Ảnh nay sử dụng AI để loại bỏ những bức ảnh thừa thãi như ảnh trùng lặp, ảnh chụp màn hình hay hoá đơn. Giao diện chính của ứng dụng Ảnh có thêm nút Năm/Tháng/Ngày để xem các kỷ niệm (Memories) dựa trên khung thời gian được chỉ định.
+
+  						</p>
+  						<img src="hinhanh/tin/18.jpg" class="img-fluid">
+						<br>
+  						<img src="hinhanh/tin/19.jpg" class="img-fluid">
+  						<br>
+  						<img src="hinhanh/tin/20.jpg" class="img-fluid">
+  						<p>Giao diện chỉnh sửa ảnh được nâng cấp để trở nên dễ sử dụng và có thêm nhiều tính năng hơn. Thực tế, iOS 13 không những có thể chỉnh sửa ảnh, mà nay là cả video, cụ thể là xoay video và thêm hiệu ứng (filter).</p>
+  						<img src="hinhanh/tin/21.jpg" class="img-fluid">
+  						<br>
+  						<img src="hinhanh/tin/22.jpg" class="img-fluid">
+  						<h1>Hỗ trợ AirPods và HomePod tốt hơn</h1>
+  						<p>
+  						Sau khi cập nhật lên iOS 13, AirPods và HomePod sẽ được bổ sung một vài tính năng mới. Khi người dùng đang đeo AirPods và có tin nhắn đến, Siri sẽ đọc tin nhắn và người dùng có thể trả lời rảnh tay. Tính năng “Audio Sharing” cho phép người dùng có thể chia sẻ âm thanh mà mình đang nghe với người khác.</p>
+  						<img src="hinhanh/tin/23.jpg" class="img-fluid">
+  						<p>Tương tự như vậy với HomePod: nếu như người dùng đang nghe nhạc trên iPhone và muốn tiếp tục nghe nó bằng HomePod, họ chỉ cần cầm iPhone đến gần chiếc loa này là sẽ có thể chuyển tiếp âm thanh từ iPhone đến HomePod.</p>
+  						<img src="hinhanh/tin/24.jpg" class="img-fluid">
+  						<h1>Ứng dụng Reminders (nhắc nhở) mới</h1>
+  						<p>
+  						Apple đã viết lại hoàn toàn ứng dụng Reminders, giúp người dùng có thể tạo nhắc nhở nhanh chóng và thông minh hơn và quản lý và phân loại nhắc nhở dễ dàng hơn. Đi đôi với những thay đổi này là một giao diện hoàn toàn mới.</p>
+  						<img src="hinhanh/tin/25.png" class="img-fluid">
+  						<h1>Những nâng cấp khác</h1>
+  						<p>Những nâng cấp khác
+  						Apple còn mang đến cho iOS 13 rất nhiều tính năng mới khác như make-up cho Memoji, giao diện mới cho CarPlay, bản đồ Apple Maps mới chi tiết hơn và hỗ trợ Street View, ứng dụng Siri Shortcuts được cài đặt sẵn… và ngoài ra là vô vàn những thay đổi nhỏ. Một vài trong số đó có thể kể đến hỗ trợ từ điển Anh-Việt, chọn mạng Wi-Fi trong Control Center, chế độ tiết kiệm data hay sử dụng iMessage/FaceTime bằng cả 2 số điện thoại trên những chiếc iPhone hỗ trợ 2 SIM.</p>
+
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	
+	</div>
+<!-- ------------------------------------ End Tin tức ----------------------------------- -->
+	<!-- --------------------------------------- Tag -------------------------------------------- -->
+	<div class="style-nd container pt-1" onclick="tag()">
+		<div class="row">
+			<div class="col-md-2">
+				<h3>&ensp;<span class="btn btn-outline-danger"><i class="fa fa-tags"></i>&#160;Tags:</span></h3>
+			</div>
+			<div id="adv" class="col-md-10">
+				<div class="row container m-md-0 p-md-0 ">
+					<!-- fonts google -->
+					<h4><span class="badge badge-warning"><i class="fa fa-tags"></i>&#160;<a href="https://fonts.google.com">fonts google</a></span></h4>&#160;
+					<!-- bootstrap4 -->
+					<h4><span class="badge badge-success"><i class="fa fa-tags"></i>&#160;<a href="https://getbootstrap.com/css">bootstrap4</a></span></h4>&#160;
+					<!-- Online Tutorials -->
+					<h4><span class="badge badge-info"><i class="fa fa-tags"></i>&#160;<a href="https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog">effect</a></span></h4>&#160;
+					<!-- https://sea.mashable.com/ -->
+					<h4><span class="badge badge-danger"><i class="fa fa-tags"></i>&#160;<a href="https://sea.mashable.com">mashable</a></span></h4>&#160;
+					<!-- https://techcrunch.com/ -->
+					<h4><span class="badge badge-dark"><i class="fa fa-tags"></i>&#160;<a href="https://techcrunch.com">techcrunch</a></span></h4>&#160;
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- -------------------------------------- End Tag ------------------------------------------ -->
+	
+	<!-- scroll -->
+		<div class="container-fluid">
+			<div href="javascript:;" class="button_scroll2top" onclick="page_scroll2top()"><i class="fa fa-arrow-circle-up"></i></div>
+		</div>
+	<!-- End scroll -->
+
+<!-- ------------------------------------- END CONTENS ----------------------------------- -->
+
+<!-- ------------------------------------- FOOTER  --------------------------------------- -->
+<footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
+	<div class="row no-gutters social-container">
+		<div class="col">
+			<a class="social-inner" href="index.html" id="v1"><i class="fa fa-home"></i>&ensp;Trang chủ</a>			
+		</div>
+		<div class="col">
+			<a class="social-inner" href="csbm.html" id="v2"><i class="fa fa-info-circle" ></i>&ensp; Giới thiệu về chúng tôi</a>
+		</div>
+		<div class="col">
+			<a class="social-inner" href="csbm.html" id="v3"><i class="fa fa-bullhorn"></i>&ensp;Chính sách bảo mật
+			</a>
+		</div>
+		<div class="col">
+			<div class="container">
+				<div class="text-center center-block">
+					<a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+					<a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+					<a href="https://plus.google.com/"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+					<a href="mailto:techtalk@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+				</div>
+			</div>
+
+		</div>
+		
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-xl-5">
+				<div class="pr-xl-4 text-center">
+					<a class="brand" href="index.html">
+						<img class="img-thumbnail" src="images/techtalk.jpg" alt="" width="35%" ></a>
+						<p>Giấy phép thiết lập Mạng xã hội số 569/GP-BTTTT do Bộ Thông Tin và Truyền Thông cấp.</p>
+						<!-- Rights-->
+						<h5>Technology</h5>
+						<p>Html&#160;<i class="fa fa-html5"></i>&#160;|&#160;Css&#160;<i class="fa fa-css3"></i>&#160;|&#160;bootstrap4&#160;<i class="fa fa-btc">&#160;|&#160;Javascript</i>&#160;<i class="fa fa-codepen"></i>
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<h5>Liên hệ &#160;<i class="fa fa-map-signs"></i></h5>
+					<dl class="contact-list">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122726.26906651213!2d108.19373127159157!3d16.00331405151323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb466fcf06b910a38!2zS2hvYSBDw7RuZyBuZ2jhu4cgdGjDtG5nIHRpbiB2w6AgVHJ1eeG7gW4gdGjDtG5nIC0gxJDhuqFpIGjhu41jIMSQw6AgTuG6tW5n!5e0!3m2!1svi!2s!4v1559630547095!5m2!1svi!2s" width="200" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</dl>
+					<dl class="contact-list">
+						<dt><i class="fa fa-envelope"></i>&#160;<a href="#">techtalk@gmail.com</a></dt>
+						<dt><i class="fa fa-phone-square"></i>&#160;<a href="#">+84 399153180</a></dt>
+					</dl>
+				</div>
+				<div class="col-md-6 col-xl-4">
+					<div class="row">
+						<div class="col-md-6">
+							<h5>Quản lý</h5>
+							<ul class="nav-list">
+								<li><a href="taikhoan.html" id="Person"><i class="fa fa-user-circle-o"></i>&ensp;Tài khoản</a></li>
+								<li><a href="dulieu.html"><i class="fa fa-database"></i>&ensp;Dữ liệu</a></li>
+								<li><a href="#"><i class="fa fa-line-chart"></i>&ensp;Thống kê</a></li>
+								<li><a href="#"><i class="fa fa-sitemap"></i>&ensp;Site Map</a></li>
+								<li><a href="#"><i class="fa fa-file-code-o"></i>&ensp;Back End</a></li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<h5>Chuyên mục</h5>
+							<ul class="nav-list">
+								<li><a href="CongNghe.html"><i class="fa fa-newspaper-o"></i>&ensp;Công nghệ </a></li>
+								<li><a href="Video.html"><i class="fa fa-youtube"></i>&ensp;Video</a></li>
+								<li><a href="Chude.html"><i class="fa fa-th"></i>&ensp;Chủ đề</a></li>
+								<li><a href="Tool.html"><i class="fa fa-wrench"></i>&ensp;Tool & Tips</a></li>
+								<li><a href="LapTrinh.html"><i class="fa fa-code"></i>&ensp;Lập trình</a></li>
+								<li><a href="tscode.html"><i class="fa fa-user-secret"></i>&ensp;Tâm sự coder</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+		<div class="row no-gutters social-container">
+			<div class="col text-center">
+				<div class="spinner-grow text-primary" role="status">
+					<span class="sr-only"></span>
+				</div>
+				<div class="spinner-grow text-secondary" role="status">
+					<span class="sr-only"></span>
+				</div>
+				<div class="spinner-grow text-success" role="status">
+					<span class="sr-only"></span>
+				</div>
+				
+			</div>
+		</div>
+</footer>
+<!-- -------------------------------------------- END FOOTER ----------------------------- -->
+</body>
+
+
+<!-- -------------------------------------------- Javascript ----------------------------- -->
+	<script type="text/javascript" src="javascript/javascript.js"></script>
+	<!--  jquery library bootstrap -->
+	<script type="text/javascript" src="jquery/jquery-3.4.0.min.js"></script>
+	<!--  javascript library bootstrap -->
+	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+	<!--  javascript library swiper -->
+	<script type="text/javascript" src="swiper/dist/js/swiper.js"></script>
+	
+	<!-- js content Công nghệ slider swiper-->
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+			effect: 'coverflow',
+			grabCursor: true,
+			centeredSlides: true,
+			slidesPerView: 'auto',
+			coverflowEffect: {
+				rotate: 60,
+				stretch: 0,
+				depth: 500,
+				modifier: 2,
+				slideShadows : true,
+			},
+			pagination: {
+				el: '.swiper-pagination',
+			},
+		});
+	</script>
+	<!-- End js content Công nghệ slider swiper-->
+
+	<!-- js   Scroll Top-->
+	<script type="text/javascript">
+		$(window).scroll(function(){
+			if($(window).scrollTop() >= 10) {
+				$('.button_scroll2top').show();
+			} else {
+				$('.button_scroll2top').hide();
+			}
+		});
+		function page_scroll2top(){
+			$('html,body').animate({
+				scrollTop: 0
+			}, 1000);
+		}
+	</script>
+	<!-- j  Scroll Top-->
+	<!-- news -->
+	<script>
+		
+	</script>
+	<!-- news -->
+<!-- -------------------------------------------- Javascript ----------------------------- -->
+</html>
